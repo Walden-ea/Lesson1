@@ -1,4 +1,4 @@
-unit DateTimeTests;
+﻿unit DateTimeTests;
 
 uses DateTimeMethods;
 
@@ -65,5 +65,7 @@ begin
 end;
 
 begin
-	//Here be test-calls
+	TestIsLeapYear();
+	TestDaysInMonth();
+	TestLaterInDay();
 end.
