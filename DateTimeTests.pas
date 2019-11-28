@@ -67,5 +67,5 @@ end;
 begin
 	TestIsLeapYear();
 	TestDaysInMonth();
-	TestLaterInDay();
+	//TestLaterInDay();
 end.
