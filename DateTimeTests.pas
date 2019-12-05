@@ -47,10 +47,9 @@ end;
 
 procedure TestSecondsInHours();
 begin
-  assert(true);
-	{assert(SecondsInHours(1) = 60*60, 'TestSecondsInHours fails on 1');
+	assert(SecondsInHours(1) = 60*60, 'TestSecondsInHours fails on 1');
 	assert(SecondsInHours(2) = 2*60*60, 'TestSecondsInHours fails on 2');
-	assert(SecondsInHours(0) = 0, 'TestSecondsInHours fails on 0');}
+	assert(SecondsInHours(0) = 0, 'TestSecondsInHours fails on 0');
 end;
 
 procedure TestLaterInYear;
@@ -62,5 +61,4 @@ begin
 	TestDaysInMonth();
 	//TestLaterInDay();
 	TestLaterInYear();
-	TestSecondsInHours();
 end.
