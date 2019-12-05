@@ -52,8 +52,13 @@ begin
 	assert(SecondsInHours(0) = 0, 'TestSecondsInHours fails on 0');
 end;
 
+procedure TestLaterInYear;
+begin
+  assert(true);
+end;
 begin
 	TestIsLeapYear();
 	TestDaysInMonth();
 	//TestLaterInDay();
+	TestLaterInYear();
 end.
