@@ -50,6 +50,12 @@ function DaysInYear(year: integer): integer := 365;
 function DaysInYearRange(year1, year2: integer): integer := 9999;
 function SecondsInHours(hours: integer): integer := 0;
 
+function IsYearOfApocalypse(p1: integer): boolean;
 begin
+  result:=false;
+end;
 
+
+begin
+//
 end.
